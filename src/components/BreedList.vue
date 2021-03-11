@@ -1,7 +1,7 @@
 <template>
   <div>
     BreedList
-    <div v-for="breed in breedsList" :key="breed">Test{{ breed }}</div>
+    <div v-for="breed in breedsList" :key="breed">{{ breed }}</div>
   </div>
 </template>
 

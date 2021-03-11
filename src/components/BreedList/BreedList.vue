@@ -3,6 +3,7 @@
     BreedList
     <div v-for="breed in breedsList" :key="breed">Test{{ breed }}</div>
   </div>
+  <div></div>
 </template>
 
 <script>

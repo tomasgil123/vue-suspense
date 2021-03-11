@@ -1,14 +1,14 @@
 <template>
   <div class="home">
     <div>Title</div>
-    <Suspense>
-      <template #default>
-        <BreedList />
-      </template>
+    <!-- <Suspense>
+      <template #default> -->
+    <BreedList />
+    <!-- </template>
       <template #fallback>
         <span>Loading...</span>
       </template>
-    </Suspense>
+    </Suspense> -->
   </div>
 </template>
 
